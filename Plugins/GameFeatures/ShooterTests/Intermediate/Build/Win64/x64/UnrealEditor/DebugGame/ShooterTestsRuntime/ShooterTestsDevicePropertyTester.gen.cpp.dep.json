@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\uni modules\\year 4\\honourproject\\ue5lyra_honours_project\\plugins\\gamefeatures\\shootertests\\intermediate\\build\\win64\\unrealeditor\\inc\\shootertestsruntime\\uht\\shootertestsdevicepropertytester.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\uni modules\\year 4\\honourproject\\ue5lyra_honours_project\\intermediate\\build\\win64\\x64\\lyraeditor\\debuggame\\unrealed\\sharedpch.unrealed.project.nonoptimized.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\uni modules\\year 4\\honourproject\\ue5lyra_honours_project\\plugins\\gamefeatures\\shootertests\\intermediate\\build\\win64\\x64\\unrealeditor\\debuggame\\shootertestsruntime\\definitions.shootertestsruntime.h",
+            "c:\\uni modules\\year 4\\honourproject\\ue5lyra_honours_project\\plugins\\gamefeatures\\shootertests\\source\\shootertestsruntime\\private\\shootertestsdevicepropertytester.h",
+            "c:\\uni modules\\year 4\\honourproject\\ue5lyra_honours_project\\plugins\\gamefeatures\\shootertests\\intermediate\\build\\win64\\unrealeditor\\inc\\shootertestsruntime\\uht\\shootertestsdevicepropertytester.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

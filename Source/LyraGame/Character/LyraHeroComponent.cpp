@@ -288,6 +288,9 @@ void ULyraHeroComponent::InitializePlayerInput(UInputComponent* PlayerInputCompo
 					LyraIC->BindNativeAction(InputConfig, LyraGameplayTags::InputTag_Look_Stick, ETriggerEvent::Triggered, this, &ThisClass::Input_LookStick, /*bLogIfNotFound=*/ false);
 					LyraIC->BindNativeAction(InputConfig, LyraGameplayTags::InputTag_Crouch, ETriggerEvent::Triggered, this, &ThisClass::Input_Crouch, /*bLogIfNotFound=*/ false);
 					LyraIC->BindNativeAction(InputConfig, LyraGameplayTags::InputTag_AutoRun, ETriggerEvent::Triggered, this, &ThisClass::Input_AutoRun, /*bLogIfNotFound=*/ false);
+
+					// Test
+					LyraIC->BindNativeAction(InputConfig, LyraGameplayTags::InputTag_Dive, ETriggerEvent::Triggered, this, &ThisClass::Input_Dive, /*bLogIfNotFound=*/ false);
 				}
 			}
 		}
@@ -467,6 +470,11 @@ void ULyraHeroComponent::Input_AutoRun(const FInputActionValue& InputActionValue
 			Controller->SetIsAutoRunning(!Controller->GetIsAutoRunning());
 		}	
 	}
+}
+
+void ULyraHeroComponent::Input_Dive(const FInputActionValue& InputActionValue)
+{
+	bool test = true;
 }
 
 TSubclassOf<ULyraCameraMode> ULyraHeroComponent::DetermineCameraMode() const
