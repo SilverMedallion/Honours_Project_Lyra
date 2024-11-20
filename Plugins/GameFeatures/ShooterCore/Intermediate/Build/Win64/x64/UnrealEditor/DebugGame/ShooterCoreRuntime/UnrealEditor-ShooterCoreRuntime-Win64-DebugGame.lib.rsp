@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ShooterCoreRuntime-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Uni Modules\Year 4\HonourProject\UE5Lyra_Honours_Project\Intermediate\Build\Win64\x64\LyraEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.Project.NonOptimized.ValApi.Cpp20.h.obj"
+"C:\Uni Modules\Year 4\HonourProject\UE5Lyra_Honours_Project\Plugins\GameFeatures\ShooterCore\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\ShooterCoreRuntime\Module.ShooterCoreRuntime.cpp.obj"
+"C:\Uni Modules\Year 4\HonourProject\UE5Lyra_Honours_Project\Plugins\GameFeatures\ShooterCore\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\ShooterCoreRuntime\Default.rc2.res"
+/OUT:"C:\Uni Modules\Year 4\HonourProject\UE5Lyra_Honours_Project\Plugins\GameFeatures\ShooterCore\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\ShooterCoreRuntime\UnrealEditor-ShooterCoreRuntime-Win64-DebugGame.lib"
